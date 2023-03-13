@@ -1,0 +1,60 @@
+.App {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  }
+.App {
+  border: 1px solid blue;
+  border-radius: 7px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #007bff;
+  
+}
+
+.card {
+  border: 1px solid black;
+  border-radius: 7px;
+  width: 250px;
+  height: 550px;
+  margin: 10px;
+  padding: 40px;
+  background-color:#fff;  
+}
+.content{
+  align-items: left;
+}
+h1{
+    text-align: center; 
+
+}
+h5{
+  text-align: center;
+}
+sub{
+  font-size:small;
+}
+.card:hover {
+  margin-top:0.2px;
+  cursor: pointer;
+}
+.dol {
+    color: #70757a;
+}
+.btn{
+  border: 1px solid #007bff;
+  border-radius: 10px;
+  width: 200px;
+  height: 40px;
+  margin: 10px;
+  padding: 5px;
+  background-color:#007bff;
+  text-align: center;
+  align-items: center;
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: blue;
+}
